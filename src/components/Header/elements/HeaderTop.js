@@ -14,9 +14,6 @@ const HeaderTop = () => {
         <Row className="align-items-center">
           <Col md={6}>
             <div className="d-flex align-items-center justify-content-center justify-content-md-start">
-            
-
-
               <ul className="contact-detail text-center text-lg-left">
                 <li>
                   <IoIosPhonePortrait />
