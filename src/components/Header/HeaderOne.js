@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Container } from "react-bootstrap";
 import { connect } from "react-redux";
 import { IoIosMenu } from "react-icons/io";
-import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Form } from "react-bootstrap";
 import Navigation from "./elements/Navigation";
 import SearchOverlay from "./elements/SearchOverlay";
@@ -44,12 +43,12 @@ const HeaderOne = ({ cartItems, navPositionClass }) => {
               <a className="navbar-brand">
                 <img
                   className="logo-light"
-                  src="/assets/images/logo_light.png"
+                  src="/assets/images/icons/CIHlogoblanco.png"
                   alt="logo"
                 />
                 <img
                   className="logo-dark"
-                  src="/assets/images/logo_dark.png"
+                  src="/assets/images/icons/CIHlogoNegro.png"
                   alt="logo"
                 />
               </a>
@@ -65,20 +64,6 @@ const HeaderOne = ({ cartItems, navPositionClass }) => {
                   <option value="en">English</option>
                   <option value="fn">France</option>
                 </Form.Control>
-              </li>
-              <li className="d-block d-lg-none position-relative">
-                <Link href="/other/cart">
-                  <a className="nav-link mini-cart-trigger pr-3 pr-lg-0">
-                    <AiOutlineShoppingCart />
-                    {cartItems.length > 0 ? (
-                      <span className="cart-count cart-count--mobile">
-                        {cartItems.length}
-                      </span>
-                    ) : (
-                      ""
-                    )}
-                  </a>
-                </Link>
               </li>
               <li className="d-block d-lg-none">
                 <button

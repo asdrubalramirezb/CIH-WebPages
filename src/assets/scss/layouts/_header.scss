@@ -312,7 +312,10 @@
 
   vertical-align: top;
 }
-
+.logo-light,
+.logo-dark {
+  width: 127px;
+}
 .dark-skin .logo-light,
 .dark-skin .logo-default,
 .light-skin .logo-default,
