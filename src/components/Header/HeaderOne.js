@@ -2,13 +2,12 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Container } from "react-bootstrap";
 import { connect } from "react-redux";
-import { IoIosSearch, IoIosMenu } from "react-icons/io";
+import { IoIosMenu } from "react-icons/io";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import HeaderTop from "./elements/HeaderTop";
+import { Form } from "react-bootstrap";
 import Navigation from "./elements/Navigation";
 import SearchOverlay from "./elements/SearchOverlay";
 import MobileMenu from "./elements/MobileMenu";
-import MiniCart from "./elements/MiniCart";
 
 const HeaderOne = ({ cartItems, navPositionClass }) => {
   const [scroll, setScroll] = useState(0);
@@ -37,9 +36,6 @@ const HeaderOne = ({ cartItems, navPositionClass }) => {
         scroll > headerHeight ? "is-sticky" : ""
       }`}
     >
-      {/* header top */}
-      <HeaderTop />
-
       <div className="bottom-header dark-skin">
         <Container>
           <div className="bottom-header-container d-flex justify-content-between align-items-center position-relative">
@@ -64,32 +60,12 @@ const HeaderOne = ({ cartItems, navPositionClass }) => {
 
             {/* icons */}
             <ul className="header-icons d-flex">
-              <li className="d-none d-lg-block">
-                <button
-                  className="nav-link search-trigger"
-                  onClick={() => {
-                    setOffCanvasSearchActive(true);
-                  }}
-                >
-                  <IoIosSearch />
-                </button>
+              <li>
+                <Form.Control as="select" name="languages" className="mr-2">
+                  <option value="en">English</option>
+                  <option value="fn">France</option>
+                </Form.Control>
               </li>
-
-              <li className="d-none d-lg-block position-relative">
-                <Link href="/other/cart">
-                  <a className="nav-link mini-cart-trigger pr-3 pr-lg-0">
-                    <AiOutlineShoppingCart />
-                    {cartItems.length > 0 ? (
-                      <span className="cart-count">{cartItems.length}</span>
-                    ) : (
-                      ""
-                    )}
-                  </a>
-                </Link>
-                {/* mini cart */}
-                <MiniCart cartItems={cartItems} />
-              </li>
-
               <li className="d-block d-lg-none position-relative">
                 <Link href="/other/cart">
                   <a className="nav-link mini-cart-trigger pr-3 pr-lg-0">
@@ -116,6 +92,7 @@ const HeaderOne = ({ cartItems, navPositionClass }) => {
               </li>
             </ul>
           </div>
+              
         </Container>
       </div>
 
@@ -130,6 +107,7 @@ const HeaderOne = ({ cartItems, navPositionClass }) => {
         activeStatus={offCanvasMobileMenuActive}
         getActiveStatus={setOffCanvasMobileMenuActive}
       />
+    
     </header>
   );
 };

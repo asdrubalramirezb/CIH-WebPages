@@ -14,16 +14,8 @@ const HeaderTop = () => {
         <Row className="align-items-center">
           <Col md={6}>
             <div className="d-flex align-items-center justify-content-center justify-content-md-start">
-              <Form.Control as="select" name="languages" className="mr-2">
-                <option value="en">English</option>
-                <option value="fn">France</option>
-              </Form.Control>
+            
 
-              <Form.Control as="select" name="countries" className="mr-3">
-                <option value="USD">USD</option>
-                <option value="EUR">EUR</option>
-                <option value="GBR">GBR</option>
-              </Form.Control>
 
               <ul className="contact-detail text-center text-lg-left">
                 <li>
