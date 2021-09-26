@@ -24,17 +24,17 @@ const FashionOne = ({
       {/* double banner */}
       <BannerTwo />
       {/* tab product */}
-      <ProductTab
+      {/* <ProductTab
         title="Exclusive Products"
         newProducts={newProducts}
         bestSellerProducts={bestSellerProducts}
         featuredProducts={featuredProducts}
         saleProducts={saleProducts}
-      />
+      /> */}
       {/* single banner */}
-      <BannerOne />
+      {/* <BannerOne /> */}
       {/* product slider */}
-      <ProductSliderOne title="Featured Products" products={featuredProducts} />
+      {/* <ProductSliderOne title="Featured Products" products={featuredProducts} /> */}
       {/* testimonial */}
       <TestimonialOne testimonialData={testimonialOneData} />
       {/* icon box */}

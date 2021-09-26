@@ -4,6 +4,7 @@ import Swiper from "react-id-swiper";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 const HeroSliderOne = ({ heroSliderData }) => {
+  console.log(heroSliderData, "heroSliderdata")
   const params = {
     loop: true,
     speed: 1000,
