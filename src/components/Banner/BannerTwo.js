@@ -8,9 +8,9 @@ const BannerTwo = () => {
         <Row>
           <Col md={4}>
             <div className="single-banner">
-              <div className="single-banner__info">
-                <h3 className="title">Laboratory</h3>
-                <Button>More Info</Button>
+              <div className="single-info">
+                <h3 className="title">Seeds</h3>
+                <Button variant="dark">More Info</Button>
                 {/* <Link href="/shop/grid-left-sidebar">
                   <a className="link">More info</a>
                 </Link> */}
@@ -23,11 +23,9 @@ const BannerTwo = () => {
           </Col>
           <Col md={4}>
             <div className="single-banner">
-              <div className="single-banner__info">
+              <div className="single-info">
                 <h3 className="title">Cultivation</h3>
-                <Link href="/shop/grid-left-sidebar">
-                  <a className="link">More info</a>
-                </Link>
+                <Button variant="dark">More Info</Button>
               </div>
               <img
                 src="/assets/images/banner/ej1.png"
@@ -37,11 +35,9 @@ const BannerTwo = () => {
           </Col>
           <Col md={4}>
             <div className="single-banner">
-              <div className="single-banner__info">
+              <div className="single-info">
                 <h3 className="title">Laboratory</h3>
-                <Link href="/shop/grid-left-sidebar">
-                  <a className="link">More info</a>
-                </Link>
+                <Button variant="dark">More Info</Button>
               </div>
               <img
                 src="/assets/images/banner/ej2.png"
@@ -49,7 +45,6 @@ const BannerTwo = () => {
               />
             </div>
           </Col>
-          
         </Row>
       </Container>
     </div>
