@@ -38,24 +38,6 @@ const FooterOne = () => {
 
   return (
     <Fragment>
-      <div className="bg--default space-pt--60 space-pb--60">
-        <Container>
-          <Row className="align-items-center">
-            <Col md={6}>
-              <h3 className="newsletter-title text-white mb-md-0">
-                Subscribe Our Newsletter
-              </h3>
-            </Col>
-            <Col md={6}>
-              <SubscribeEmail
-                mailchimpUrl="https://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef"
-                alertColor="#fff"
-              />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
       <footer className="footer-dark">
         <div className="footer-top">
           <Container>
