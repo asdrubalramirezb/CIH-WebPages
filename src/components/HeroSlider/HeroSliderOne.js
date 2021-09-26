@@ -41,7 +41,14 @@ const HeroSliderOne = ({ heroSliderData }) => {
                   style={{ backgroundImage: `url(${single.backgroundImage})` }}
                   key={key}
                 >
-                  <div className="hero-slider__content-wrapper">
+                  <div className="text-center align-self-center my-auto">
+                    <img
+                      src="/assets/images/icons/CIHlogoblanco.png"
+                      alt="shop_banner_img1"
+                      height="300"  
+                    />
+                  </div>
+                  {/* <div className="hero-slider__content-wrapper">
                     <Container>
                       <Row>
                         <Col lg={6}>
@@ -61,7 +68,7 @@ const HeroSliderOne = ({ heroSliderData }) => {
                         </Col>
                       </Row>
                     </Container>
-                  </div>
+                  </div> */}
                 </div>
               );
             })}
