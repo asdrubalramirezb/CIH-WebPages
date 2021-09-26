@@ -44,10 +44,10 @@ const FooterOne = () => {
             <Row>
               <Col lg={3} md={6} sm={12}>
                 <div className="widget">
-                  <div className="footer-logo">
+                  <div className="footer-logo text-center">
                     <Link href="/">
                       <a>
-                        <img src="/assets/images/logo_light.png" alt="logo" />
+                        <img src="/assets/images/icons/CIHlogoblanco1.png" alt="logo" className="w-50" fluid/>
                       </a>
                     </Link>
                   </div>
