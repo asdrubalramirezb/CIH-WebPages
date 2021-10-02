@@ -49,28 +49,23 @@ const MobileMenuNav = ({ getActiveStatus }) => {
           </Link>
         </li>
         <li className="menu-item-has-children">
-          <Link href="/">
+          <Link href="/other/about-us">
             <a>About</a>
           </Link>
         </li>
         <li className="menu-item-has-children">
-          <Link href="/shop/grid-left-sidebar">
+          <Link href="/blog/post-video">
             <a>Cultivations</a>
           </Link>
           <ul className="mobile-sub-menu">
             <li className="menu-item-has-children">
-              <Link href="/shop/grid-left-sidebar">
+              <Link href="/blog/post-video">
                 <a>Medical cannabis seeds</a>
               </Link>
             </li>
             <li className="menu-item-has-children">
-              <Link href="/shop/grid-left-sidebar">
+              <Link href="/blog/post-video">
                 <a>Medical cannabis flowers</a>
-              </Link>
-            </li>
-            <li className="menu-item-has-children">
-              <Link href="/shop/grid-left-sidebar">
-                <a>Certification</a>
               </Link>
             </li>
           </ul>
@@ -81,19 +76,19 @@ const MobileMenuNav = ({ getActiveStatus }) => {
           </Link>
           <ul className="mobile-sub-menu">
             <li>
-              <Link href="/other/about-us">
+              <Link href="/blog/post-video">
                 <a>Pharmaceutical Grade Cannabis Oil</a>
               </Link>
             </li>
             <li>
-              <Link href="/other/contact-us">
+              <Link href="/blog/post-video">
                 <a>Certifications</a>
               </Link>
             </li>
           </ul>
         </li>
         <li className="menu-item-has-children">
-          <Link href="/blog/grid-four-columns">
+          <Link href="/other/about-us">
             <a>Team</a>
           </Link>
         </li>

@@ -18,45 +18,45 @@ const Navigation = ({ positionClass }) => {
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/other/about-us">
             <a className="nav-link">
               ABOUT 
             </a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="#">
             <a className="nav-link">
             CULTIVATION <IoIosArrowDown />
             </a>
           </Link>
           <ul className="sub-menu sub-menu--one-column">
             <li>
-              <Link href="/other/about-us">
+              <Link href="/blog/post-video">
                 <a>Medical cannabis seeds</a>
               </Link>
             </li>
             <li>
-              <Link href="/other/contact-us">
+              <Link href="/blog/post-video">
                 <a>Medical cannabis flowers</a>
               </Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link href="/">
+          <Link href="#">
             <a className="nav-link">
               LABORATORY <IoIosArrowDown />
             </a>
           </Link>
           <ul className="sub-menu sub-menu--one-column">
             <li>
-              <Link href="/other/about-us">
+              <Link href="/blog/post-video">
                 <a>Pharmaceutical Grade Cannabis Oil</a>
               </Link>
             </li>
             <li>
-              <Link href="/other/contact-us">
+              <Link href="/blog/post-video">
                 <a>Certification</a>
               </Link>
             </li>
