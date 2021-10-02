@@ -28,19 +28,19 @@ const TestimonialOne = ({ testimonialData }) => {
     )
   };
   return (
-    <div className="testimonial-area bg--redon space-pt--r100 space-pb--r100 space-mb--r100">
-      <Container>
+    <div className="testimonial-area bg--green space-pt--r100 space-pb--r100 space-mb--r100">
+      <Container className="text-white">
         <Row className="justify-content-center">
           <Col md={6}>
             <div className="section-title text-center space-mb--25">
               <h2>Our Client Say!</h2>
-            </div>
+            </div> 
           </Col>
         </Row>
         <Row className="justify-content-center">
           <Col lg={9}>
             <div className="testimonial-wrap">
-              <Swiper {...params}>
+              <Swiper {...params} >
                 {testimonialData &&
                   testimonialData.map((single, key) => {
                     return (
