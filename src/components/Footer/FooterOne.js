@@ -41,7 +41,7 @@ const FooterOne = () => {
       <footer className="footer-dark">
         <div className="footer-top">
           <Container>
-            <Row>
+            <Row className="justify-content-around">
               <Col lg={3} md={6} sm={12}>
                 <div className="widget">
                   <div className="footer-logo text-center">
@@ -86,103 +86,7 @@ const FooterOne = () => {
                   </ul>
                 </div>
               </Col>
-              <Col lg={2} md={3} sm={6}>
-                <div className="widget">
-                  <h6 className="widget-title">Useful Links</h6>
-                  <ul className="widget-links">
-                    <li>
-                      <Link href="/other/about-us">
-                        <a>About Us</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/other/faq">
-                        <a>FAQ</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Location</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Affiliates</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/other/contact-us">
-                        <a>Contact</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </Col>
-              <Col lg={2} md={3} sm={6}>
-                <div className="widget">
-                  <h6 className="widget-title">Category</h6>
-                  <ul className="widget-links">
-                    <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        <a>Men</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        <a>Woman</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        <a>Kids</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        <a>Best Seller</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        <a>New Arrivals</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </Col>
-              <Col lg={2} md={6} sm={6}>
-                <div className="widget">
-                  <h6 className="widget-title">My Account</h6>
-                  <ul className="widget-links">
-                    <li>
-                      <Link href="/other/my-account">
-                        <a>My Account</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Discount</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Returns</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Orders History</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Order Tracking</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </Col>
-              <Col lg={3} md={4} sm={6}>
+              <Col lg={3} md={6} sm={12}>
                 <div className="widget">
                   <h6 className="widget-title">Contact Info</h6>
                   <ul className="contact-info contact-info-light">
@@ -207,52 +111,14 @@ const FooterOne = () => {
         <div className="bottom-footer border-top--grey">
           <Container>
             <Row>
-              <Col md={6}>
-                <p className="mb-3 mb-md-0 text-center text-md-left">
+              <Col>
+                <p className="mb-3 mb-md-0 text-center">
                   Copyright &copy; {new Date().getFullYear() + " "}. Built with{" "}
                   <FaHeart /> by{" "}
                   <a href="https://www.hasthemes.com" target="_blank">
                     HasThemes
                   </a>
                 </p>
-              </Col>
-              <Col md={6}>
-                <ul className="footer-payment text-center text-lg-right">
-                  <li>
-                    <a href="#">
-                      <img src="/assets/images/icons/visa.png" alt="visa" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="/assets/images/icons/discover.png"
-                        alt="discover"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="/assets/images/icons/master_card.png"
-                        alt="master_card"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="/assets/images/icons/paypal.png" alt="paypal" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="/assets/images/icons/amarican_express.png"
-                        alt="american_express"
-                      />
-                    </a>
-                  </li>
-                </ul>
               </Col>
             </Row>
           </Container>
