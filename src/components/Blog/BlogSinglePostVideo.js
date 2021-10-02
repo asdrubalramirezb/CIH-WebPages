@@ -21,7 +21,7 @@ const BlogSinglePostVideo = () => {
     <Fragment>
       <div className="single-post">
         <h2 className="blog-title">
-          But I must explain to you how all this mistaken idea
+          But I must explain to you how all this mistaken idea ggg
         </h2>
         <ul className="blog-meta">
           <li>
