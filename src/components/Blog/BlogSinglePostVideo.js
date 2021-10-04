@@ -5,7 +5,7 @@ import {
   FaRegComments,
   FaCalendarAlt,
   FaQuoteRight,
-  FaFacebookF,
+  /* FaFacebookF,
   FaTwitter,
   FaGooglePlusG,
   FaYoutube,
@@ -13,7 +13,7 @@ import {
   FaTh,
   FaArrowLeft,
   FaArrowRight,
-  FaReplyAll
+  FaReplyAll */
 } from "react-icons/fa";
 
 const BlogSinglePostVideo = () => {
@@ -106,88 +106,8 @@ const BlogSinglePostVideo = () => {
               Fusce vitae dui sit amet lacus rutrum convallis. Vivamus sit amet
               lectus venenatis est rhoncus interdum a vitae velit.
             </p>
-            <div className="blog-post-footer">
-              <Row className="justify-content-between align-items-center">
-                <Col md={8} className="mb-3 mb-md-0">
-                  <div className="tags">
-                    <Link href="/blog/grid-left-sidebar">
-                      <a>General</a>
-                    </Link>
-                    <Link href="/blog/grid-left-sidebar">
-                      <a>Design</a>
-                    </Link>
-                    <Link href="/blog/grid-left-sidebar">
-                      <a>Branding</a>
-                    </Link>
-                    <Link href="/blog/grid-left-sidebar">
-                      <a>Modern</a>
-                    </Link>
-                  </div>
-                </Col>
-                <Col md={4}>
-                  <ul className="social-icons text-md-right">
-                    <li>
-                      <a href="#" className="sc_facebook">
-                        <FaFacebookF />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="sc_twitter">
-                        <FaTwitter />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="sc_google">
-                        <FaGooglePlusG />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="sc_youtube">
-                        <FaYoutube />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="sc_instagram">
-                        <FaInstagram />
-                      </a>
-                    </li>
-                  </ul>
-                </Col>
-              </Row>
-            </div>
           </div>
         </div>
-      </div>
-      <div className="post-navigation bg--grey">
-        <Row className="align-items-center justify-content-between p-4">
-          <Col xs={5}>
-            <div className="post-nav post-nav--prev">
-              <Link href="/blog/post-left-sidebar">
-                <a>
-                  <FaArrowLeft />
-                  <span className="title">blanditiis praesentium</span>
-                </a>
-              </Link>
-            </div>
-          </Col>
-          <Col xs={2}>
-            <Link href="/blog/grid-left-sidebar">
-              <a className="post-nav--home">
-                <FaTh />
-              </a>
-            </Link>
-          </Col>
-          <Col xs={5} className="text-right">
-            <div className="post-nav post-nav--next">
-              <Link href="/blog/post-left-sidebar">
-                <a>
-                  <FaArrowRight />
-                  <span className="title">voluptatum deleniti</span>
-                </a>
-              </Link>
-            </div>
-          </Col>
-        </Row>
       </div>
       <div className="card post-author space-mt--40 space-mb--40">
         <div className="card-body">
@@ -211,7 +131,7 @@ const BlogSinglePostVideo = () => {
       </div>
       <div className="related-post">
         <div className="content-title">
-          <h5>Related posts</h5>
+          <h5>Genetics of medical cannabis </h5>
         </div>
         <Row>
           <Col md={6}>
@@ -229,42 +149,28 @@ const BlogSinglePostVideo = () => {
               <div className="blog-post__content">
                 <div className="blog-text">
                   <h6 className="blog-title">
-                    <Link href="/blog/post-left-sidebar">
-                      <a>But I must explain to you how all this mistaken</a>
-                    </Link>
+                    Lima Haze
                   </h6>
-                  <ul className="blog-meta">
-                    <li>
-                      <Link href="/blog/post-left-sidebar">
-                        <a>
-                          <FaCalendarAlt /> April 14, 2021
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/post-left-sidebar">
-                        <a>
-                          <FaRegComments /> 10
-                        </a>
-                      </Link>
-                    </li>
-                  </ul>
+                  <div className="blog-meta">
+                      <p><b>THC:</b> 19% <br />
+                      <b>CBD:</b> 0.5% <br />
+                      <b>Dominant Terpene: </b>Myrcene</p>
+                  </div>
                   <p>
-                    If you are going to use a passage of Lorem Ipsum, you need
-                    to be sure there isn't anything embarrassing hidden in the
-                    middle of text
+                    <b>Terpene Description: </b>
+                    The myrcene is a unique combination of earth, musk and herbs, with a touch of fruit and citrus.
                   </p>
                 </div>
               </div>
             </div>
           </Col>
           <Col md={6}>
-            <div className="blog-post">
+          <div className="blog-post">
               <div className="blog-post__image">
                 <Link href="/blog/post-left-sidebar">
                   <a>
                     <img
-                      src="/assets/images/blog/blog_small_img3.jpg"
+                      src="/assets/images/blog/blog_small_img2.jpg"
                       alt="blog_small_img1"
                     />
                   </a>
@@ -273,30 +179,78 @@ const BlogSinglePostVideo = () => {
               <div className="blog-post__content">
                 <div className="blog-text">
                   <h6 className="blog-title">
-                    <Link href="/blog/post-left-sidebar">
-                      <a>Why is a ticket to Lagos so expensive?</a>
-                    </Link>
+                    Lima Haze
                   </h6>
-                  <ul className="blog-meta">
-                    <li>
-                      <Link href="/blog/post-left-sidebar">
-                        <a>
-                          <FaCalendarAlt /> April 14, 2021
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/post-left-sidebar">
-                        <a>
-                          <FaRegComments /> 10
-                        </a>
-                      </Link>
-                    </li>
-                  </ul>
+                  <div className="blog-meta">
+                      <p><b>THC:</b> 19% <br />
+                      <b>CBD:</b> 0.5% <br />
+                      <b>Dominant Terpene: </b>Myrcene</p>
+                  </div>
                   <p>
-                    If you are going to use a passage of Lorem Ipsum, you need
-                    to be sure there isn't anything embarrassing hidden in the
-                    middle of text
+                    <b>Terpene Description: </b>
+                    The myrcene is a unique combination of earth, musk and herbs, with a touch of fruit and citrus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={6}>
+            <div className="blog-post">
+              <div className="blog-post__image">
+                <Link href="/blog/post-left-sidebar">
+                  <a>
+                    <img
+                      src="/assets/images/blog/blog_small_img2.jpg"
+                      alt="blog_small_img1"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <div className="blog-post__content">
+                <div className="blog-text">
+                  <h6 className="blog-title">
+                    Lima Haze
+                  </h6>
+                  <div className="blog-meta">
+                      <p><b>THC:</b> 19% <br />
+                      <b>CBD:</b> 0.5% <br />
+                      <b>Dominant Terpene: </b>Myrcene</p>
+                  </div>
+                  <p>
+                    <b>Terpene Description: </b>
+                    The myrcene is a unique combination of earth, musk and herbs, with a touch of fruit and citrus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col md={6}>
+          <div className="blog-post">
+              <div className="blog-post__image">
+                <Link href="/blog/post-left-sidebar">
+                  <a>
+                    <img
+                      src="/assets/images/blog/blog_small_img2.jpg"
+                      alt="blog_small_img1"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <div className="blog-post__content">
+                <div className="blog-text">
+                  <h6 className="blog-title">
+                    Lima Haze
+                  </h6>
+                  <div className="blog-meta">
+                      <p><b>THC:</b> 19% <br />
+                      <b>CBD:</b> 0.5% <br />
+                      <b>Dominant Terpene: </b>Myrcene</p>
+                  </div>
+                  <p>
+                    <b>Terpene Description: </b>
+                    The myrcene is a unique combination of earth, musk and herbs, with a touch of fruit and citrus.
                   </p>
                 </div>
               </div>
@@ -304,159 +258,7 @@ const BlogSinglePostVideo = () => {
           </Col>
         </Row>
       </div>
-      <div className="comment-area">
-        <div className="content-title">
-          <h5>(03) Comments</h5>
-        </div>
-        <ul className="comment-list space-mb--40">
-          <li className="comment-info">
-            <div className="d-flex">
-              <div className="comment-info__image">
-                <img src="/assets/images/users/user2.jpg" alt="user2" />
-              </div>
-              <div className="comment-info__content">
-                <div className="d-flex">
-                  <div className="meta-data">
-                    <h6>
-                      <a href="#">Alden Smith</a>
-                    </h6>
-                    <div className="comment-time">MARCH 5, 2020, 6:05 PM</div>
-                  </div>
-                  <div className="ml-auto">
-                    <a href="#" className="comment-reply">
-                      <FaReplyAll />
-                      Reply
-                    </a>
-                  </div>
-                </div>
-                <p>
-                  We denounce with righteous indignation and dislike men who are
-                  so beguiled and demoralized by the charms of pleasure of the
-                  moment, so blinded by desire that the cannot foresee the pain
-                  and trouble that.
-                </p>
-              </div>
-            </div>
-            <ul className="children">
-              <li className="comment-info">
-                <div className="d-flex">
-                  <div className="comment-info__image">
-                    <img src="/assets/images/users/user3.jpg" alt="user3" />
-                  </div>
-                  <div className="comment-info__content">
-                    <div className="d-flex align-items-md-center">
-                      <div className="meta-data">
-                        <h6>
-                          <a href="#">Daisy Lana</a>
-                        </h6>
-                        <div className="comment-time">
-                          april 8, 2020, 5:15 PM
-                        </div>
-                      </div>
-                      <div className="ml-auto">
-                        <a href="#" className="comment-reply">
-                          <FaReplyAll />
-                          Reply
-                        </a>
-                      </div>
-                    </div>
-                    <p>
-                      We denounce with righteous indignation and dislike men who
-                      are so beguiled and demoralized by the charms of pleasure
-                      of the moment, so blinded by desire that the cannot
-                      foresee the pain and trouble that.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <li className="comment-info">
-            <div className="d-flex">
-              <div className="comment-info__image">
-                <img src="/assets/images/users/user4.jpg" alt="user4" />
-              </div>
-              <div className="comment-info__content">
-                <div className="d-flex">
-                  <div className="meta-data">
-                    <h6>
-                      <a href="#">John Becker</a>
-                    </h6>
-                    <div className="comment-time">april 15, 2020, 10:30 PM</div>
-                  </div>
-                  <div className="ml-auto">
-                    <a href="#" className="comment-reply">
-                      <FaReplyAll />
-                      Reply
-                    </a>
-                  </div>
-                </div>
-                <p>
-                  We denounce with righteous indignation and dislike men who are
-                  so beguiled and demoralized by the charms of pleasure of the
-                  moment, so blinded by desire that the cannot foresee the pain
-                  and trouble that.
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <div className="content-title">
-          <h5>Write a comment</h5>
-        </div>
-        <form className="field-form" name="enq" method="post">
-          <div className="row">
-            <div className="form-group col-md-4">
-              <input
-                name="name"
-                className="form-control"
-                placeholder="Your Name"
-                required="required"
-                type="text"
-              />
-            </div>
-            <div className="form-group col-md-4">
-              <input
-                name="email"
-                className="form-control"
-                placeholder="Your Email"
-                required="required"
-                type="email"
-              />
-            </div>
-            <div className="form-group col-md-4">
-              <input
-                name="website"
-                className="form-control"
-                placeholder="Your Website"
-                required="required"
-                type="text"
-              />
-            </div>
-            <div className="form-group col-md-12">
-              <textarea
-                rows={3}
-                name="message"
-                className="form-control"
-                placeholder="Your Comment"
-                required="required"
-                defaultValue={""}
-              />
-            </div>
-            <div className="form-group col-md-12">
-              <button
-                value="Submit"
-                name="submit"
-                className="btn btn-fill-out"
-                title="Submit Your Message!"
-                type="submit"
-              >
-                Submit
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
+      
     </Fragment>
   );
 };
