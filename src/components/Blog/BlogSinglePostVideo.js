@@ -1,5 +1,8 @@
 import { Fragment } from "react";
 import Link from "next/link";
+import { BrandLogoThree } from "../../components/BrandLogo";
+import brandLogoData from "../../data/brand-logo/brand-logo-one.json";
+
 import { Row, Col } from "react-bootstrap";
 import {
   FaRegComments,
@@ -258,7 +261,8 @@ const BlogSinglePostVideo = () => {
           </Col>
         </Row>
       </div>
-      
+          <BrandLogoThree title="Certifications" brandLogoData={brandLogoData} />
+     
     </Fragment>
   );
 };
