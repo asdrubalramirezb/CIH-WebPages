@@ -2,6 +2,8 @@ import { Fragment } from "react";
 import Link from "next/link";
 import { BrandLogoThree } from "../../components/BrandLogo";
 import brandLogoData from "../../data/brand-logo/brand-logo-one.json";
+import { BlogPostListWrapper } from "../../components/Blog";
+
 
 import { Row, Col } from "react-bootstrap";
 import {
@@ -134,7 +136,7 @@ const BlogSinglePostVideo = () => {
       </div>
       <div className="related-post">
         <div className="content-title">
-          <h5>Genetics of medical cannabis </h5>
+          <h2>Genetics of medical cannabis </h2>
         </div>
         <Row>
           <Col md={6}>
@@ -261,8 +263,13 @@ const BlogSinglePostVideo = () => {
           </Col>
         </Row>
       </div>
-          <BrandLogoThree title="Certifications" brandLogoData={brandLogoData} />
-     
+      <div className=" p-4 mt-3">
+        <div className="content-title">
+          <h2>Cannabis Pharmaceutical Grade Oil</h2>
+        </div>
+        <BlogPostListWrapper />
+      </div>
+      <BrandLogoThree title="Certifications" brandLogoData={brandLogoData} />
     </Fragment>
   );
 };

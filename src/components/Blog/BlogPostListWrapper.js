@@ -15,206 +15,7 @@ const BlogPostListWrapper = () => {
   return (
     <Row>
       <Col lg={12}>
-        <div className="blog-post blog-post--list-view">
-          <div className="blog-post__image">
-            <Link href="/blog/post-left-sidebar">
-              <a>
-                <img
-                  src="/assets/images/blog/blog_small_img1.jpg"
-                  alt="blog_small_img1"
-                />
-              </a>
-            </Link>
-          </div>
-          <div className="blog-post__content">
-            <div className="blog-text">
-              <h6 className="blog-title">
-                <Link href="/blog/post-left-sidebar">
-                  <a>But I must explain to you how all this mistaken idea</a>
-                </Link>
-              </h6>
-              <ul className="blog-meta">
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaCalendarAlt /> April 14, 2021
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaRegComments /> 10
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-              <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text
-              </p>
-
-              <Link href="/blog/post-left-sidebar">
-                <a className="btn btn-fill-line border-2 btn-xs rounded-0">
-                  Read More
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </Col>
-      <Col lg={12}>
-        <div className="blog-post blog-post--list-view">
-          <div className="blog-post__image">
-            <Link href="/blog/post-left-sidebar">
-              <a>
-                <img
-                  src="/assets/images/blog/blog_small_img2.jpg"
-                  alt="blog_small_img1"
-                />
-              </a>
-            </Link>
-          </div>
-          <div className="blog-post__content">
-            <div className="blog-text">
-              <h6 className="blog-title">
-                <Link href="/blog/post-left-sidebar">
-                  <a>On the other hand we provide denounce with righteous</a>
-                </Link>
-              </h6>
-              <ul className="blog-meta">
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaCalendarAlt /> April 14, 2021
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaRegComments /> 10
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-              <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text
-              </p>
-              <Link href="/blog/post-left-sidebar">
-                <a className="btn btn-fill-line border-2 btn-xs rounded-0">
-                  Read More
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </Col>
-      <Col lg={12}>
-        <div className="blog-post blog-post--list-view">
-          <div className="blog-post__image">
-            <Link href="/blog/post-left-sidebar">
-              <a>
-                <img
-                  src="/assets/images/blog/blog_small_img3.jpg"
-                  alt="blog_small_img1"
-                />
-              </a>
-            </Link>
-          </div>
-          <div className="blog-post__content">
-            <div className="blog-text">
-              <h6 className="blog-title">
-                <Link href="/blog/post-left-sidebar">
-                  <a>Why is a ticket to Lagos so expensive?</a>
-                </Link>
-              </h6>
-              <ul className="blog-meta">
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaCalendarAlt /> April 14, 2021
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaRegComments /> 10
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-              <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text
-              </p>
-              <Link href="/blog/post-left-sidebar">
-                <a className="btn btn-fill-line border-2 btn-xs rounded-0">
-                  Read More
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </Col>
-      <Col lg={12}>
-        <div className="blog-post blog-post--list-view">
-          <div className="blog-post__image">
-            <div className="fit-videos">
-              <div className="fluid-width-video-wrapper">
-                <iframe
-                  src="https://player.vimeo.com/video/132464682?byline=0&portrait=0"
-                  width="540"
-                  height="360"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
-          <div className="blog-post__content">
-            <div className="blog-text">
-              <h6 className="blog-title">
-                <Link href="/blog/post-left-sidebar">
-                  <a>But I must explain to you how all this mistaken idea</a>
-                </Link>
-              </h6>
-              <ul className="blog-meta">
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaCalendarAlt /> April 14, 2021
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaRegComments /> 10
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-              <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text
-              </p>
-              <Link href="/blog/post-left-sidebar">
-                <a className="btn btn-fill-line border-2 btn-xs rounded-0">
-                  Read More
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </Col>
-      <Col lg={12}>
-        <div className="blog-post blog-post--list-view">
+        <div className="blog-post blog-post--list-view flex-row-reverse">
           <div className="blog-post__image">
             <Link href="/blog/post-left-sidebar">
               <a>
@@ -228,136 +29,12 @@ const BlogPostListWrapper = () => {
           <div className="blog-post__content">
             <div className="blog-text">
               <h6 className="blog-title">
-                <Link href="/blog/post-left-sidebar">
-                  <a>But I must explain to you how all this mistaken idea</a>
-                </Link>
+              Master Formulas Phytotherapics Emulsions Medicines
               </h6>
-              <ul className="blog-meta">
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaCalendarAlt /> April 14, 2021
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaRegComments /> 10
-                    </a>
-                  </Link>
-                </li>
-              </ul>
               <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text
+                The emulsions are processed together in different vehicles that allow the easy incorporation 
+                of the derivative in the required formulation.
               </p>
-              <Link href="/blog/post-left-sidebar">
-                <a className="btn btn-fill-line border-2 btn-xs rounded-0">
-                  Read More
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </Col>
-      <Col lg={12}>
-        <div className="blog-post blog-post--list-view">
-          <div className="blog-post__image">
-            <div className="fit-videos">
-              <div className="fluid-width-video-wrapper">
-                <iframe
-                  width="540"
-                  height="360"
-                  allow="autoplay"
-                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/118951274&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-          <div className="blog-post__content">
-            <div className="blog-text">
-              <h6 className="blog-title">
-                <Link href="/blog/post-left-sidebar">
-                  <a>But I must explain to you how all this mistaken idea</a>
-                </Link>
-              </h6>
-              <ul className="blog-meta">
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaCalendarAlt /> April 14, 2021
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaRegComments /> 10
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-              <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text
-              </p>
-              <Link href="/blog/post-left-sidebar">
-                <a className="btn btn-fill-line border-2 btn-xs rounded-0">
-                  Read More
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </Col>
-      <Col lg={12}>
-        <div className="blog-post blog-post--list-view">
-          <div className="blog-post__image">
-            <Link href="/blog/post-left-sidebar">
-              <a>
-                <img
-                  src="/assets/images/blog/blog_small_img6.jpg"
-                  alt="blog_small_img1"
-                />
-              </a>
-            </Link>
-          </div>
-          <div className="blog-post__content">
-            <div className="blog-text">
-              <h6 className="blog-title">
-                <Link href="/blog/post-left-sidebar">
-                  <a>But I must explain to you how all this mistaken idea</a>
-                </Link>
-              </h6>
-              <ul className="blog-meta">
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaCalendarAlt /> April 14, 2021
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaRegComments /> 10
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-              <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text
-              </p>
-              <Link href="/blog/post-left-sidebar">
-                <a className="btn btn-fill-line border-2 btn-xs rounded-0">
-                  Read More
-                </a>
-              </Link>
             </div>
           </div>
         </div>
@@ -379,32 +56,14 @@ const BlogPostListWrapper = () => {
           <div className="blog-post__content">
             <div className="blog-text">
               <h6 className="blog-title">
-                <Link href="/blog/post-left-sidebar">
-                  <a>But I must explain to you how all this mistaken idea</a>
-                </Link>
+                Cannabis Oils
               </h6>
-              <ul className="blog-meta">
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaCalendarAlt /> April 14, 2021
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaRegComments /> 10
-                    </a>
-                  </Link>
-                </li>
-              </ul>
               <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text
+                Phytotherapeutic products and medicines will be designed, formulated and developed with laboratories
+                certified by the regulatory body, based on their own preclinical studies and bibliographic support
+                that is already being gathered.
               </p>
-              <Link href="/blog/post-left-sidebar">
+              <Link href="#">
                 <a className="btn btn-fill-line border-2 btn-xs rounded-0">
                   Read More
                 </a>
@@ -414,7 +73,7 @@ const BlogPostListWrapper = () => {
         </div>
       </Col>
       <Col lg={12}>
-        <div className="blog-post blog-post--list-view">
+        <div className="blog-post blog-post--list-view flex-row-reverse">
           <div className="blog-post__image">
             <Swiper {...params}>
               <div className="item">
@@ -442,36 +101,12 @@ const BlogPostListWrapper = () => {
           <div className="blog-post__content">
             <div className="blog-text">
               <h6 className="blog-title">
-                <Link href="/blog/post-left-sidebar">
-                  <a>But I must explain to you how all this mistaken idea</a>
-                </Link>
+                Pharmaceutical Grade Oil
               </h6>
-              <ul className="blog-meta">
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaCalendarAlt /> April 14, 2021
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog/post-left-sidebar">
-                    <a>
-                      <FaRegComments /> 10
-                    </a>
-                  </Link>
-                </li>
-              </ul>
               <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text
+                Magistral products are prescribed by a medical professional
+                and delivered directly to the patient for whom the product has been formulated.
               </p>
-              <Link href="/blog/post-left-sidebar">
-                <a className="btn btn-fill-line border-2 btn-xs rounded-0">
-                  Read More
-                </a>
-              </Link>
             </div>
           </div>
         </div>
