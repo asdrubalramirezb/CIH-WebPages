@@ -261,6 +261,36 @@ const BlogSinglePostVideo = () => {
               </div>
             </div>
           </Col>
+          <Col md={6}>
+          <div className="blog-post">
+              <div className="blog-post__image">
+                <Link href="/blog/post-left-sidebar">
+                  <a>
+                    <img
+                      src="/assets/images/blog/blog_small_img2.jpg"
+                      alt="blog_small_img1"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <div className="blog-post__content">
+                <div className="blog-text">
+                  <h6 className="blog-title">
+                    Lima Haze
+                  </h6>
+                  <div className="blog-meta">
+                      <p><b>THC:</b> 19% <br />
+                      <b>CBD:</b> 0.5% <br />
+                      <b>Dominant Terpene: </b>Myrcene</p>
+                  </div>
+                  <p>
+                    <b>Terpene Description: </b>
+                    The myrcene is a unique combination of earth, musk and herbs, with a touch of fruit and citrus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Col>
         </Row>
       </div>
       <div className=" p-4 mt-3">
